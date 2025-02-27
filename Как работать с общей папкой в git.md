@@ -14,10 +14,10 @@
 
 ```bash
 # Клонирование репозитория
-git clone https://github.com/AtomicBim/AtomObsidian.git
+git clone https://github.com/AtomicBim/01_Shared.git
 
 # Перейти в папку проекта
-cd AtomObsidian
+cd 01_Shared
 ```
 
 ## Ежедневные операции
@@ -71,12 +71,14 @@ git checkout -- путь/к/файлу.md
 
 # Создание новой ветки для экспериментов
 git checkout -b имя_новой_ветки
+
+# Вернуться к состоянию удаленного репозитория
+git restore .
 ```
 
 ## Напоминание
 
 Помните, что согласно настройке `.gitignore`, Git отслеживает только:
 - Файл `.gitignore`
-- Содержимое папки `00_Data/01_Shared/`
 
 Все остальные файлы игнорируются и не будут синхронизированы между компьютерами.
