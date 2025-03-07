@@ -13,7 +13,8 @@
 ```bash
 # Клонирование репозитория
 git clone https://github.com/AtomicBim/01_Shared.git
-
+```
+```bash
 # Перейти в папку проекта
 cd 01_Shared
 ```
@@ -21,6 +22,7 @@ cd 01_Shared
 ### Получение изменений
 1. Включаю консоль -> WIN + R
 2. Перехожу в командную строку -> cmd
+3. Ваша конечная папка 01_Shared может быть по другому пути, проверьте в Obsidian
 ```bash
 # Перехожу в конечную папку из консоли
 cd "C:\Users\litueva\Desktop\JuliaLit\00_Data\01_Shared"
